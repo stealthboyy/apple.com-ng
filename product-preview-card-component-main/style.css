@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    min-width: 100vw;
+    height: 100vh;
+}
+
+html{
+    font-size: 14px;
+}
+
+
+.product-card {
+    position: relative;
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+    width: 750px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+}
+
+.section-1 {
+    width: 99%;
+    border-radius: 1rem 0 0 1rem;
+    flex-basis: 50%;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-basis: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.section-2 p:nth-child(1){
+    letter-spacing: .5rem;
+    color: rgb(196,194,195);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.section-2 h1:nth-child(2) {
+    padding-right: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.section-2 > span {
+    color: hsl(228, 12%, 48%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+}
+
+.price-now {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 34px
+}
+
+.price-before {
+    margin-top: 1rem ;
+}
+
+
+.buy-now {
+    text-align: center;
+    background-color:darkcyan;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.buy-now img {
+    z-index: 2;
+}
+.cart {
+    color: red;
+}
+
+.cart {
+    color: hsl(0, 0%, 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
