@@ -1,0 +1,161 @@
+/*------------------------------------*\
+   HERO CSS
+\*------------------------------------*/
+
+
+.main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper { padding-left: 15px; padding-right: 15px; }
+
+/* HERO 1 IPHONE-14-PRO */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END HERO 1 IPHONE-14-PRO */
+
+
+
+
+
+/* HERO 2 IPHONE-14 */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END HERO 2 IPHONE-14 */
+
+
+
+
+
+/* HERO 3 MACBOOK-AIR */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END HERO 3 MACBOOK-AIR */
+
+
+
+
+/*------------------------------------*\
+  END HERO CSS
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+   PROMO CSS
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+/* PROMO 1 MACBOOK-PRO-13 */
+
+/* SCREENS */
+
+
+
+/* LOCAL FIXES */
+
+.main [data-module-template="promos"] [data-unit-id="macbook-pro-13"] .unit-copy-wrapper .headline {
+	margin-top: 54px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="promos"] [data-unit-id="macbook-pro-13"] .unit-copy-wrapper .headline {
+		margin-top: 42px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="promos"] [data-unit-id="macbook-pro-13"] .unit-copy-wrapper .headline {
+		margin-top: 37px;
+	}
+}
+
+.main [data-module-template="promos"] [data-unit-id="macbook-pro-13"] .unit-copy-wrapper .cta-links.cta-links-mbp13 {
+    margin-top: -2px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="promos"] [data-unit-id="macbook-pro-13"] .unit-copy-wrapper .cta-links.cta-links-mbp13 {
+	    margin-top: -1px;
+	}
+}
+
+/* END PROMO 1 MACBOOK-PRO-13 */
+
+
+
+
+
+/* PROMO 2 IPAD-AIR */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END PROMO 2 IPAD-AIR */
+
+
+
+
+
+
+
+
+
+/* PROMO 3 IPAD-MINI */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END PROMO 3 IPAD-MINI */
+
+
+
+
+
+
+
+
+
+
+/* PROMO 4 IPHONE-SE */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.main [data-module-template="promos"] [data-unit-id="iphone-se"] .unit-copy-wrapper .violator-frameless {
+    margin-top: 28px;
+}
+
+@media only screen and (max-width: 1068px) {
+.main [data-module-template="promos"] [data-unit-id="iphone-se"] .unit-copy-wrapper .violator-frameless {
+    margin-top: 17px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="promos"] [data-unit-id="iphone-se"] .unit-copy-wrapper .violator-frameless {
+	    margin-top: 53px;
+	}
+}
+
+
+/* END PROMO 4 IPHONE-SE */
+
+/*------------------------------------*\
+  END PROMO CSS
+\*------------------------------------*/

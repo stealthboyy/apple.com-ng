@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+}
+
+header {
+    background-color: rgb(50,50,51);
+    color: white;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    line-height: 44px;
+    font-family: 'SF Pro Text', serif;
+}
+
+
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+
+
+
+/* header div article {
+    position: absolute;
+} */
+
+.iphone14pro {
+    width: 90%;
+}
